@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.campo-elementos{
+    background-color: #eee;
+    width: 100dvw;
+    height: 90dvh;
+}
+
+.circulo{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    border-radius: 50px;
+}
+
+.painel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 10dvh;
+    background-color: #000;
+}
+
+.botao{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 15px;
+}
